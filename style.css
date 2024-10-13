@@ -1,0 +1,23 @@
+body {
+    background-image: url('img/12.jpeg');
+    background-size: 60rem; /* Agar gambar memenuhi layar */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-attachment: fixed; /* Agar background tetap saat scroll */
+}
+
+#quiz-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#button-container button {
+    margin-top: 10px;
+}
